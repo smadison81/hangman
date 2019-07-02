@@ -9,7 +9,9 @@ var userGuesses = [];
 var ranWord;
 var letters = [];
 
-
+window.onload = function () {
+    document.getElementById("theme").play();
+}
 
 function startGame() {
 
@@ -63,7 +65,7 @@ function winLose() {
     }
 
     else if (guessesLeft === 0) {
-       
+
         alert("Loser");
         losses++;
         document.getElementById('losses-text').innerHTML = losses;
@@ -98,13 +100,15 @@ document.onkeyup = function (event) {
         }
     }
     else {
-        document.getElementById("doh").play();
-        wrongLetter.push(userGuesses);
-        guessesLeft--;
+        if(wrongLetter.indexOf(userGuesses) <= -1){
+            wrongLetter.push(userGuesses);
+            guessesLeft--;
+            document.getElementById("doh").play();
+        }
         document.getElementById('guesses-left').innerHTML = guessesLeft;
-        document.getElementById('incorrect-guesses').textContent = wrongLetter; 
+        document.getElementById('incorrect-guesses').textContent = wrongLetter;
         winLose();
-    
+
     }
 }
 

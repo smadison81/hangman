@@ -10,22 +10,25 @@ body {
     font-family: simpsonfontregular;
     color: #FED90F;
     text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    
 }
 
 img {
-    max-width: 70%;
+    max-width: 100%;
     height: auto;
     top: 0px;
 }
 
 h1 {
-    font-size: 50px;
-    margin-bottom: 10%;
+    font-size: 70px;
+    margin-bottom: 1%;
 }
 
 .center {
     margin: auto;
+    margin-top: 2%;
     width: 50%;
+    
 }
 
 .clearfix {
@@ -33,7 +36,29 @@ h1 {
 }
 
 .answer {
-    font-size: 30px;
+    font-size: 20px;
     margin: auto;
+    font-weight: bold;
 }
+
+.continue{
+    font-size: 30px;
+
+}
+
+.container{
+    border: 15px solid #FFD90F;
+    border-radius: 25px;
+    box-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    background-image: url(./assets/images/brick.jpg);
+    font-size: 20px;
+}
+
+button {
+    background-color: #70D1FE;
+    color: #FED90F;
+    text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
+}
+
 
