@@ -48,7 +48,7 @@ function startGame() {
 }
 
 
-// Wins and Loses Calculations
+//Wins and Loses Calculations
 
 function winLose() {
 
@@ -59,21 +59,23 @@ function winLose() {
         wins++;
         document.getElementById('wins-text').innerHTML = wins;
         document.getElementById("aye").play();
-        alert("Winner");
-        softReset()
+       slowDown();
 
     }
 
     else if (guessesLeft === 0) {
 
-        alert("Loser");
         losses++;
         document.getElementById('losses-text').innerHTML = losses;
-        softReset()
+        document.getElementById("no").play();
+        slowDown();
     }
 
 
 }
+
+
+
 
 // User Guesses
 
@@ -134,6 +136,9 @@ function softReset() {
 
 }
 
+function slowDown() {
+    myVar = setTimeout(function(){ softReset() }, 1000);
+  }
 
 
 startGame();
