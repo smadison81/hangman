@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'simpsonfontregular';
-    src: url('/assets/css/fonts/simpsonfont_demo-webfont.woff2') format('woff2'), url('/assets/css/fonts/simpsonfont_demo-webfont.woff') format('woff');
+    src: url('assets/css/fonts/simpsonfont_demo-webfont.woff2') format('woff2'), url('assets/css/fonts/simpsonfont_demo-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }

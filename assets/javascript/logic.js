@@ -21,7 +21,7 @@ function startGame() {
 
     for (var i = 0; i < ranWord.length; i++) {
 
-        underScores.push('_');
+        underScores.push(' .... ');
 
     }
     // Printing Underscores
