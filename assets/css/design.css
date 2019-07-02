@@ -10,7 +10,7 @@ body {
     font-family: simpsonfontregular;
     color: #FED90F;
     text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-    background-image: url("./assets/images/spring.jpg");
+    background-image: url("../images/spring.jpg");
     
 }
 
@@ -51,7 +51,7 @@ h1 {
     border: 15px solid #FFD90F;
     border-radius: 25px;
     box-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-    background-image: url("./assets/images/brick.jpg");
+    background-image: url("../images/brick.jpg");
     font-size: 20px;
 }
 
