@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'simpsonfontregular';
+    src: url('/assets/css/fonts/simpsonfont_demo-webfont.woff2') format('woff2'), url('/assets/css/fonts/simpsonfont_demo-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: #70D1FE;
+    font-family: simpsonfontregular;
+    color: #FED90F;
+    text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+img {
+    max-width: 70%;
+    height: auto;
+    top: 0px;
+}
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 10%;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+.answer {
+    font-size: 30px;
+    margin: auto;
+}
+
