@@ -24,12 +24,13 @@ img {
 h1 {
     font-size: 70px;
     margin-bottom: 1%;
+    width: 100%;
 }
 
 .center {
     margin: auto;
     margin-top: 2%;
-    width: 50%;
+    width: 100%;
     
 }
 
@@ -62,4 +63,12 @@ button {
     text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 
 }
+
+/* @media screen and (max-width: 1400px) {
+
+    h1{
+        font-size:60px;
+    } */
+
+
 
