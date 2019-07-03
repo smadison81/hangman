@@ -59,7 +59,7 @@ function winLose() {
         wins++;
         document.getElementById('wins-text').innerHTML = wins;
         document.getElementById("aye").play();
-       slowDown();
+        slowDown();
 
     }
 
@@ -125,7 +125,7 @@ function softReset() {
     console.log('Random Word: ' + ranWord);
     underScores = [];
     for (var i = 0; i < ranWord.length; i++) {
-        underScores.push('_');
+        underScores.push(' ... ');
 
     }
     // Printing Underscores
